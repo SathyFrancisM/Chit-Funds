@@ -1,0 +1,123 @@
+{
+  "config": {
+    "phoneNumberId": "",
+    "accessToken": "",
+    "businessAccountId": "",
+    "templateName": "",
+    "verifyToken": "chitflow_webhook_verify_token",
+    "isConfigured": false
+  },
+  "dispatches": {
+    "disp_1794548554428_0e6bf0": {
+      "id": "disp_1794548554428_0e6bf0",
+      "createdAt": "2026-11-13T05:42:34.429Z",
+      "updatedAt": "2026-11-13T05:42:34.450Z",
+      "status": "failed",
+      "stats": {
+        "total": 1,
+        "pending": 0,
+        "queued": 0,
+        "processing": 0,
+        "accepted": 0,
+        "delivered": 0,
+        "failed": 1,
+        "skipped": 0,
+        "remaining": 0
+      },
+      "jobs": [
+        {
+          "id": "job_1794548554429_294fa5ec",
+          "dispatchId": "disp_1794548554428_0e6bf0",
+          "memberId": "mem-1794548532251-1-jyp6",
+          "memberName": "sathy",
+          "phone": "9952289590",
+          "phoneFormatted": "919952289590",
+          "seatNumber": 2,
+          "schemeId": "chit-1794548532251-ndhl",
+          "schemeName": "Sathy",
+          "messageText": "Based on our chit shuffling process you have been selected as this month winner, for further details and query contact the Admin",
+          "status": "failed",
+          "error": "WhatsApp Cloud API credentials not configured. Please set Phone Number ID and Access Token in Settings.",
+          "createdAt": "2026-11-13T05:42:34.429Z",
+          "updatedAt": "2026-11-13T05:42:34.450Z",
+          "attempts": 1
+        }
+      ]
+    },
+    "disp_1794548625954_e0aaae": {
+      "id": "disp_1794548625954_e0aaae",
+      "createdAt": "2026-11-13T05:43:45.955Z",
+      "updatedAt": "2026-11-13T05:43:45.957Z",
+      "status": "failed",
+      "stats": {
+        "total": 1,
+        "pending": 0,
+        "queued": 0,
+        "processing": 0,
+        "accepted": 0,
+        "delivered": 0,
+        "failed": 1,
+        "skipped": 0,
+        "remaining": 0
+      },
+      "jobs": [
+        {
+          "id": "job_1794548625955_d1790ac3",
+          "dispatchId": "disp_1794548625954_e0aaae",
+          "memberId": "",
+          "memberName": "sathy",
+          "phone": "9952289590",
+          "phoneFormatted": "919952289590",
+          "schemeId": "chit-1794548532251-ndhl",
+          "schemeName": "Sathy",
+          "messageText": "Based on our chit shuffling process you have been selected as this month winner, for further details and query contact the Admin",
+          "status": "failed",
+          "error": "WhatsApp Cloud API credentials not configured. Please set Phone Number ID and Access Token in Settings.",
+          "createdAt": "2026-11-13T05:43:45.955Z",
+          "updatedAt": "2026-11-13T05:43:45.957Z",
+          "attempts": 1
+        }
+      ]
+    },
+    "disp_1794548666243_7914ec": {
+      "id": "disp_1794548666243_7914ec",
+      "createdAt": "2026-11-13T05:44:26.243Z",
+      "updatedAt": "2026-11-13T05:44:26.243Z",
+      "status": "completed",
+      "stats": {
+        "total": 1,
+        "pending": 0,
+        "queued": 0,
+        "processing": 0,
+        "accepted": 0,
+        "delivered": 0,
+        "failed": 0,
+        "skipped": 1,
+        "remaining": 0
+      },
+      "jobs": [
+        {
+          "id": "job_1794548666243_953558fb",
+          "dispatchId": "disp_1794548666243_7914ec",
+          "memberId": "",
+          "memberName": "sathy",
+          "phone": "9952289590",
+          "phoneFormatted": "919952289590",
+          "schemeId": "chit-1794548532251-ndhl",
+          "schemeName": "Sathy",
+          "messageText": "Based on our chit shuffling process you have been selected as this month winner, for further details and query contact the Admin",
+          "status": "skipped",
+          "error": "Duplicate prevention: Reminder was already sent within the last 5 minutes. Use Force Send to override.",
+          "createdAt": "2026-11-13T05:44:26.243Z",
+          "updatedAt": "2026-11-13T05:44:26.243Z",
+          "attempts": 0
+        }
+      ]
+    }
+  },
+  "activeDispatchId": "disp_1794548666243_7914ec",
+  "dedupKeys": {
+    "mem-1794548532251-1-jyp6_chit-1794548532251-ndhl": "2026-11-13T05:42:34.429Z",
+    "_chit-1794548532251-ndhl": "2026-11-13T05:43:45.955Z"
+  }
+}
